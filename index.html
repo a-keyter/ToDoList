@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo's w. Alex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="mainContainer">
+    <h1 class="center">Alex's To-Do List</h1>
+
+    <!-- This Section contains the Create New Task Section -->
+        <div class="createTaskContainer">
+            <h2>Create New Task</h2>
+            <form id="newToDo">
+
+                <div class="formSection taskEntry">
+                <label for="newToDoText">I need to:</label>
+                <input id="newToDoText" type="text">
+                </div>
+
+                <div class="formSection dateEntry">
+                <label for="newDueDate">Due Date:</label>
+                <input id="newDueDate" type="date">
+                </div>
+
+                <div class="formSection">
+                <button type="button" id="addTaskButton">Add Task</button>
+                </div>
+            </form>
+        </div> <!-- Closing tag - createTaskContainer -->
+    
+    <!-- This Section contains the Task List -->
+        <div id="taskList"> 
+            <h2>Task List</h2>
+
+                <div class="tasksContainer" id="tasksContainer">
+
+                    <div class="singleTaskContainer" id="taskNumber0">
+                        <div class="activeTask">Task Name </div> 
+                        <div class="centerMargin dueDate">When?</div>
+                        <div class="centerMargin" id="deleteButton0">Done?</div>
+                    </div>
+                    
+
+                    <div class="singleTaskContainer" id="taskNumber0">
+                        <div class="activeTask">Example Task </div> 
+                        <div class="centerMargin dueDate">Date</div>
+                        <button class="centerMargin" id="deleteButton0">X</button>
+                    </div> <!-- Individual Task Container-->                    
+
+                </div> <!-- Active Tasks Container-->
+                
+                <p>Current To-Do Items <span id="listCount">0</span></p>
+            </div> <!-- closing tag - Task List Container-->
+
+    </div>     <!-- Closing tag - main Container -->
+
+
+    <script src="app.js"></script>
+</body>
+</html>

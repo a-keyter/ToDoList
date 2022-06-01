@@ -1,0 +1,61 @@
+/* Global styling */
+body {
+    text-align: center;
+    background-color: beige;
+}
+
+.centerMargin {
+    margin: auto auto;
+}
+
+
+#mainContainer {
+    max-width: 400px;
+    margin: 10% auto;
+    border: 10px solid turquoise;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+
+/* Create New Task Layout */
+.createTaskContainer{
+    margin: 10% 5%;
+    background-color: bisque;
+    border: grey solid 5px;
+    border-radius: 10px;
+}
+
+.formSection {
+    margin: 20px 0;
+    width: 100%;
+}
+
+/* Task List Layout */
+
+
+#taskList {
+    margin: 10% 5%;
+    background-color: bisque;
+    border: grey solid 5px;
+    border-radius: 10px;
+} /* sets up entire task list container*/
+
+.singleTaskContainer {
+    border: #fff solid 2px;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+} /* sets up individual task container with flex*/
+
+.activeTask {
+    width: 60%;
+}
+
+.dueDate {
+    padding: 0 10px;
+    border-left: #f4f4f4 solid 2px;
+    border-right: #f4f4f4 solid 2px;
+}
+
+
