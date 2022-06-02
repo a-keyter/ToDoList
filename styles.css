@@ -2,6 +2,7 @@
 body {
     text-align: center;
     background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .centerMargin {
@@ -49,7 +50,7 @@ body {
 } /* sets up individual task container with flex*/
 
 .activeTask {
-    width: 60%;
+    width: 50%;
 }
 
 .dueDate {
